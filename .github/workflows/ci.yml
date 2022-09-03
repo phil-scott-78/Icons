@@ -26,9 +26,9 @@ jobs:
           7.0.x
         include-prerelease: true
 
-    - name: Build, Test (Debug & Release), Publish (main only)
-      shell: bash
-      working-directory: ./src/BadIdeas.Icons.FontAwesome/
-      run: |
-        dotnet tool install --global dotnet-releaser
-        dotnet-releaser run --nuget-token "${{secrets.NUGET_TOKEN}}" --github-token "${{secrets.GITHUB_TOKEN}}" dotnet-releaser.toml
+#    - name: Build, Test (Debug & Release), Publish (main only)
+#      shell: bash
+#      working-directory: ./src/BadIdeas.Icons.FontAwesome/
+#      run: |
+#        dotnet tool install --global dotnet-releaser
+#        dotnet-releaser run --nuget-token "${{secrets.NUGET_TOKEN}}" --github-token "${{secrets.GITHUB_TOKEN}}" dotnet-releaser.toml
