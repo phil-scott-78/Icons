@@ -20,11 +20,11 @@
     </PropertyGroup>
     
     <ItemGroup>
-        <AdditionalFiles Include="Font-Awesome/svgs/**/*.svg"/>
+        <AdditionalFiles Include="Font-Awesome/svgs/**/*.svg" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components" Version="7.0.0-preview.7.22376.6"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components" Version="7.0.0-preview.7.22376.6" />
         <PackageReference Include="MinVer" Version="3.1.0">
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -32,7 +32,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\IconSourceGen\IconSourceGen.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer"/>
+        <ProjectReference Include="..\IconSourceGen\IconSourceGen.csproj" ReferenceOutputAssembly="false" OutputItemType="Analyzer" />
     </ItemGroup>
 
 
