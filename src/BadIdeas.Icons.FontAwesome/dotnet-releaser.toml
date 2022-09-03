@@ -2,5 +2,5 @@
 [msbuild]
 project = "BadIdeas.Icons.FontAwesome.csproj"
 [github]
-user = "github_user_or_org_here"
-repo = "github_repo_here"
+user = "phil-scott-78"
+repo = "Icons"
