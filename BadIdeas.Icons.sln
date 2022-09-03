@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{99102A11-7B0F-4461-AFAE-1C96E6567BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadIdeas.Icons.FontAwesome", "src\BadIdeas.Icons.FontAwesome\BadIdeas.Icons.FontAwesome.csproj", "{EC42097F-69B1-423C-BB82-9BA13B1BC3DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconSourceGen", "src\IconSourceGen\IconSourceGen.csproj", "{18D69F66-D187-4665-A2FC-EC3197ABF154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC42097F-69B1-423C-BB82-9BA13B1BC3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC42097F-69B1-423C-BB82-9BA13B1BC3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC42097F-69B1-423C-BB82-9BA13B1BC3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC42097F-69B1-423C-BB82-9BA13B1BC3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC42097F-69B1-423C-BB82-9BA13B1BC3DE} = {99102A11-7B0F-4461-AFAE-1C96E6567BC8}
+		{18D69F66-D187-4665-A2FC-EC3197ABF154} = {99102A11-7B0F-4461-AFAE-1C96E6567BC8}
+	EndGlobalSection
+EndGlobal

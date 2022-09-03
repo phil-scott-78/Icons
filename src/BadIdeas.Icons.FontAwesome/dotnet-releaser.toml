@@ -1,0 +1,6 @@
+# configuration file for dotnet-releaser
+[msbuild]
+project = "FontAwesome.csproj"
+[github]
+user = "github_user_or_org_here"
+repo = "github_repo_here"
