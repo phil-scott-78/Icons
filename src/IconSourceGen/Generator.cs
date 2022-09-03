@@ -152,6 +152,7 @@ namespace {{{ns}}}
             className = className.Insert(0, "_");
         }
 
-        return className.Replace(" ", string.Empty);
+        className = className.Replace(" ", string.Empty);
+        return $"{className}Icon";
     }
 }
