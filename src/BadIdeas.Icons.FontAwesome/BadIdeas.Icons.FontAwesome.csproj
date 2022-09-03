@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsTrimmable>true</IsTrimmable>
-        <PackAsTool>true</PackAsTool>
+        <IsPackable>true</IsPackable>
     </PropertyGroup>
 
     <!-- Package properties -->
