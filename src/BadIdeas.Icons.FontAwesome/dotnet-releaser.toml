@@ -1,10 +1,15 @@
 # configuration file for dotnet-releaser
 [msbuild]
 project = "BadIdeas.Icons.FontAwesome.csproj"
+
 [msbuild.properties]
-PublishTrimmed = false
+PublishSingleFile = false
+SelfContained = false
+PublishReadyToRun = false 
+
 [nuget]
 publish_draft = true # publish draft NuGet package per commit
+
 [github]
 user = "phil-scott-78"
 repo = "Icons"
