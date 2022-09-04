@@ -109,7 +109,7 @@ namespace {{{ns}}}
 
         var viewBox = node.Attributes["viewBox"].Value;
         // ok, this is beyond naive but whatever.
-        var content = node.InnerXml.Replace("<path ", "<path fill=\"currentColor\" ");
+        var content = node.InnerXml;
         var ns = $"{value.Config.RootNameSpace}.{path.Replace("/", ".").Replace("\\", ".")}";
         ns = string.Join(".", ns.Split('.').Select(i => CultureInfo.CurrentCulture.TextInfo.ToTitleCase(i)).ToArray());
         var className = GenerateClassName(fileName);
