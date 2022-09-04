@@ -2,12 +2,6 @@
 [msbuild]
 project = "BadIdeas.Icons.FontAwesome.csproj"
 
-[msbuild.properties]
-PublishTrimmed = false
-PublishSingleFile = false
-SelfContained = false
-PublishReadyToRun = false 
-
 [nuget]
 publish_draft = true # publish draft NuGet package per commit
 
