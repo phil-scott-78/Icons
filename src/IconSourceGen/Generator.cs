@@ -41,7 +41,7 @@ namespace {{ config.RootNameSpace}}
         public Dictionary<string, object>? AdditionalAttributes { get; set; }
 
         [Parameter, EditorRequired]
-        public IconData? Data { get; set; } = null!;
+        public IconData? Item { get; set; } = null!;
     
         protected override void BuildRenderTree(RenderTreeBuilder builder)
         {
@@ -55,8 +55,8 @@ namespace {{ config.RootNameSpace}}
             builder.OpenElement(0, "svg");
             builder.AddAttribute(1, "xmlns", "http://www.w3.org/2000/svg");
             builder.AddAttribute(2, "class", cssClass);
-            var viewBox = Data.ViewBox;
-            var content = Data.Content;
+            var viewBox = Item.ViewBox;
+            var content = Item.Content;
             builder.AddAttribute(3, "viewBox", viewBox);
             builder.AddMultipleAttributes(4, AdditionalAttributes?.Where(i => i.Key != "class" && i.Value is not IconData) );
             builder.AddMarkupContent(5, content);

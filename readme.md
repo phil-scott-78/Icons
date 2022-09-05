@@ -15,9 +15,9 @@ dotnet add package BadIdeas.Icons.FontAwesome
 All the icons are components in the Icon namespace. They have zero styling, so you'll need to apply a width and a fill color with whatever CSS library you're into.
 
 ```csharp
-@using Icons.Brands
+@using BadIdeas.FontAwesome.Icons
 
-<GitHubIcon class="w-4 fill-slate-500"></GitHubIcon>
+<Icon Data="Brands.Github()" class="...your styling..."> </Icon>
 ```
 
 ## Neat
