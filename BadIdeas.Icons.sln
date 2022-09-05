@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadIdeas.Icons.FontAwesome"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IconSourceGen", "src\IconSourceGen\IconSourceGen.csproj", "{18D69F66-D187-4665-A2FC-EC3197ABF154}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{55821AA2-EB0E-4384-A849-B187C25B288C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorApp", "tests\TestBlazorApp\TestBlazorApp.csproj", "{64E1AE7A-CB3C-4917-92EC-24310C707C9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +30,14 @@ Global
 		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18D69F66-D187-4665-A2FC-EC3197ABF154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E1AE7A-CB3C-4917-92EC-24310C707C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E1AE7A-CB3C-4917-92EC-24310C707C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E1AE7A-CB3C-4917-92EC-24310C707C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E1AE7A-CB3C-4917-92EC-24310C707C9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EC42097F-69B1-423C-BB82-9BA13B1BC3DE} = {99102A11-7B0F-4461-AFAE-1C96E6567BC8}
 		{18D69F66-D187-4665-A2FC-EC3197ABF154} = {99102A11-7B0F-4461-AFAE-1C96E6567BC8}
+		{64E1AE7A-CB3C-4917-92EC-24310C707C9B} = {55821AA2-EB0E-4384-A849-B187C25B288C}
 	EndGlobalSection
 EndGlobal

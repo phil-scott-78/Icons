@@ -18,7 +18,9 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>
     </PropertyGroup>
-    
+    <PropertyGroup>
+        <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+    </PropertyGroup>
     <ItemGroup>
         <AdditionalFiles Include="Font-Awesome/svgs/**/*.svg" />
     </ItemGroup>
