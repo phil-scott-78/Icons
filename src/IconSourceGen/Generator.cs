@@ -10,9 +10,6 @@ public class Generator : IIncrementalGenerator
 {
     public void Initialize(IncrementalGeneratorInitializationContext context)
     {
-        File.AppendAllText("r:\\output2.txt", "init");
-
-
         var config = GetConfigValue(context);
         var namesAndContents = context.AdditionalTextsProvider
             .Combine(config)
